@@ -1,5 +1,5 @@
 # tic-tac-toe-finished
-<h1>Finished tic-tac-toe</h1> 
+
 
 <h3>Two player game:</h3>
 <p>Lets both players enter their names. </br>
