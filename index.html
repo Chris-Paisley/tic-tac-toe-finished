@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Sigmar+One" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Tic-Tac-Toe</title>
+</head>
+
+<body>
+
+	<header>
+	    <h1>Tic-Tac-Toe</h1>
+	</header>
+	<table id='aTable' class='game'>
+	    <tr id='rOne'>
+	        <td id='squ1' class='game square'></td>
+	        <td id='squ2' class='game square'></td>
+	        <td id='squ3'class='game square'></td>
+	    </tr>
+	     <tr id='rTwo'>
+	        <td  id='squ4' class='game square'></td>
+	        <td  id='squ5' class='game square'></td>
+	        <td id='squ6' class='game square'></td>
+	    </tr>
+	     <tr id='rThree'>
+	        <td id='squ7' class='game square'></td>
+	        <td id='squ8' class='game square'></td>
+	        <td id='squ9' class='game square'></td>
+	    </tr>
+	</table>
+	<div class='playerName'>
+		
+		<form id="wholeForm">
+        	<h3>Enter the players names</h3>
+        	<div class='playerDiv'>
+            <label>Player 1:</label></br>
+            <input id='player1' type="text" class="player " placeholder="Name"></br>
+            <label >Player 2:</label></br>
+            <input id='player2' type="text" class="player" placeholder="Name"></br>
+            <button id="myBtn" class="starting" >Choose</button>
+            </div>
+        </form>
+        
+        <div class='chooseX' style="display:none">
+        		<h4><b class="pName"></b> </br> do you want X's or O's?</h4>
+            <h4><button class='btnX choose1'>X </button> or <button class='btnO choose1'>O</button></h4>
+         </div> 
+         <div class='xTurn' style="display:none">
+        		<h4 class='btnX choose1'>X's </br> turn</h4>
+         </div> 
+         <div class='oTurn' style="display:none">
+        		<h4 class='btnO choose1'>O's </br> turn</h4>
+         </div> 
+         <div class='xWins' style='display:none'>
+        		<h4 class='over pName'> </br></h4>
+        		
+        		<div>
+        		
+        		</div>
+         </div>
+         <div class='oWins' style='display:none'>
+        		<h4 class='over p2Name'></br></h4>
+        		
+        		<div>
+        			
+        		</div>
+        		
+         </div>
+         <div class='nWins' style='display:none'> 
+            
+         	<div>
+         		
+         	</div>
+         </div>
+         
+       </div>     
+    </div>
+	<footer>
+		<p></p>
+	</footer>
+	
+	<script src="game.js"></script>
+</body>
+
+</html>

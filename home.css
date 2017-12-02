@@ -1,0 +1,84 @@
+body {
+    background-color: #add8e6;
+    width: 100%;
+    
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    color: #e58609;
+}
+
+table, td {
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #fbf9e6; 
+    font-size: 100px;
+    font-family: 'Sigmar One', cursive;
+    
+}
+
+table {
+    position: static;
+}
+
+td {
+    height: 200px;
+    width: 200px;
+}
+
+.playerDiv, h4, h1, table, td {
+    text-align: center;
+}
+
+#myBtn, #rBtn{
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 5%;
+    color: white;
+    background-color: #5d5def;
+    font-size: 16px;
+    
+}
+
+#myBtn, #rBtn, .btnX, .btnO {
+    text-decoration: none;
+    border: none;
+}
+
+.playerName {
+    background-color: #e3f4f9;
+    position: fixed;
+    right: 10px; 
+    top: 170px;
+    bottom: 60px;
+    overflow: auto;
+    padding: 10px;
+    padding-top: 60px;
+}
+
+.player{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.btnX, .btnO{
+   background-color: #e3f4f9;
+}
+
+.over, .btnX, .btnO{
+    font-family: 'Sigmar One', cursive;
+    font-size: 60px;
+}
+.over {
+    line-height: 10px;
+}
+.btnX {
+    color: red;
+}
+.btnO {
+    color: blue;
+}
+
